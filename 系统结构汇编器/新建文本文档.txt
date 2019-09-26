@@ -1,0 +1,7 @@
+	 assign rom[6'h00]=32'h14000820; //addi r1,r0,2
+	 assign rom[6'h01]=32'h14000c40; //addi r2,r0,3
+	 assign rom[6'h02]=32'h14001060; //addi r3,r0,4
+	 assign rom[6'h03]=32'h00101022; //add r4,r1,r2
+	 assign rom[6'h04]=32'h00101483; //add r5,r4,r3
+	 assign rom[6'h05]=32'h340000c0; //load r6,0(r0)
+	 assign rom[6'h06]=32'h001004c2; //add r1,r6,r2

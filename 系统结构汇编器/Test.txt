@@ -1,0 +1,7 @@
+add r1,r2,r3
+add r5,r6,r7
+sra r8,r8,1
+addi r3,r3,7
+load r3,7(r3)
+bne r3,r3,7
+jump 7
